@@ -20,6 +20,11 @@ h1{
     color: #a5a5a5;
     font-size: 40px;
 }
+h2{
+    text-align: center;
+    color: #a5a5a5;
+    font-size: 40px;
+}
 select[class="form-control"],
 input[type="text"],
 input[type="password"]{
@@ -42,17 +47,21 @@ input[type="password"]{
     color: rgb(211, 211, 211);
 }
 .button{
+    text-align: start;
     border: none;
-    width: 100%;
-    color: white;
+    width: 17%;
+    color: #26a844;
     font-size: 20px;
-    background:  #00304e;
+    background:  white;
     padding: 15px 20px;
     border-radius: 5px;
     cursor: pointer;
+    border-color: #26a844;
+    border-radius: #26a844;
 }
 .button:hover{
-    background: cadetblue;
+    background: #26a844;
+    color: white;
 }
 
 @media(min-width:768px)
