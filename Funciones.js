@@ -1,22 +1,45 @@
 $(document).ready(function(){
-    $("#table").dynamictable({
+    $("#tabla").dynamictable({
         columns: [{
-                      text:"Name",
-                      key:"name"
+                      text:"Gusto",
+                      key:"gto"
                   },
                   {
-                      text:"Age",
-                      key:"age"
+                      text:"%",
+                      key:"por"
                   },
                   {
-                      text:"Gender",
-                      key:"gender"
+                      text:"edit",
+                      key:"gdr"
                   },
               ],
-            
-              showActionColumn:true
 
+              buttons: {
+                
+                    addButton:'<input type="button" value="Add" class="btn btn-primary" />',
+                
+                    cancelButton:'<input type="button" value="Cancel" class="btn btn-primary" />',
+                
+                    deleteButton:'<input type="button" value="Delete" class="btn btn-danger" />',
+                
+                    editButton:'<input type="button" value="Edit" class="btn btn-primary" />',
+                    saveButton:'<input type="button" value="Save" class="btn btn-success" />',
+                  },
 
+                  getControl:function (columnKey) {
+                    03
+                          if (columnKey =="age") {
+                    04
+                              return '<input type="number" class="form-control" />';
+                    05
+                          }return '<input type="text" class="form-control" />';
+                        },
+                 
+
+                
+                  showActionColumn:true,
+
+                 
 
 
     });
