@@ -15,15 +15,10 @@ $(document).ready(function(){
               ],
 
               buttons: {
-                
-                    addButton:'<input type="button" value="Add" class="btn btn-primary" />',
-                
-                    cancelButton:'<input type="button" value="Cancel" class="btn btn-primary" />',
-                
-                    deleteButton:'<input type="button" value="Delete" class="btn btn-danger" />',
-                
-                    editButton:'<input type="button" value="Edit" class="btn btn-primary" />',
-                    saveButton:'<input type="button" value="Save" class="btn btn-success" />',
+                               
+                    cancelButton:'<input type="button" value="Cancelar" class="btn btn-primary" />',                
+                    editButton:'<input type="button" value="Editar" class="btn btn-primary" />',
+                    saveButton:'<input type="button" value="aceptar" class="btn btn-success" />',
                   },
 
                   getControl:function (columnKey) {
